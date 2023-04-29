@@ -46,8 +46,8 @@ const handleDeleteProducts = async()=>{
     <nav>
         <h1>Product List</h1>
         <div className="links">
-            <Link to='/add-product'>Add</Link>
-            <Link id="delete-product-button" onClick={handleDeleteProducts} >Mass Delete</Link>
+            <Link to='/add-product'>ADD</Link>
+            <Link id="delete-product-button" onClick={handleDeleteProducts} >MASS DELETE</Link>
         </div>    
     </nav>
     <main>
