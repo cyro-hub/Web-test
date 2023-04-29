@@ -1,0 +1,48 @@
+main{
+    padding: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 85vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    form{
+        width: 500px;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.5s ease-in-out;
+
+        .form_input{
+            width: 100%;
+            margin: .5em 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2em;
+            
+            label{
+                width: 130px;
+            }
+            input,select{
+                padding: 8px 15px;
+                outline: none;
+                flex: 1;
+                option{
+                    font-size: 1.25em;
+                }
+            }
+        }
+        .warning{
+            margin: auto;
+            width: 80%;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background-color: rgb(255, 60, 0);
+            border-radius: 5px;
+            padding: 3px 5px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+    }
+}
